@@ -1,4 +1,4 @@
-# Team Name
+# Team 1
 
 Project description (~1 Paragraph)
 
