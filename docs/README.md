@@ -48,6 +48,11 @@ We will take an Agile approach, using five two-week sprints to structure our dev
 - UI/UX Design: Ensure the game and web page are intuitive and accessible for K-5 students
 - Game Development (Shared): Assist with implementing gameplay features
 
+### Natasha Kidwell
+- Art and Visual Assets: Create or source graphics for asteroids, ships, backgrounds, and UI elements
+- Testing and Quality Assurance: Playtest the game, gather feedback, and help identify bugs or design issues
+- Game Development (Shared): Assist with implementing gameplay features
+
 # Estimated Timeline
 
 - Sprint 1: Learn Lua and LOVE2D framework
