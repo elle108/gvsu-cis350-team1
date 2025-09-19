@@ -7,6 +7,7 @@ Project description (~1 Paragraph)
 * [Elle Miller](https://github.com/elle108/CIS350-HW2-Miller.git) (Role 1, Role 2)
 * [Andrew Hodges](https://github.com/hodgeand/CIS350-HW2-Hodges.git) (Role 3, Role 4)
 * Member 3 (Role 5, Role 6)
+* [Natasha Kidwell](https://github.com/Chronic-Tonic/CIS350-HW2-Kidwell.git)
 
 # Prerequisites
 
