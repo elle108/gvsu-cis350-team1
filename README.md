@@ -1,6 +1,6 @@
 # Team 1
 
-Project description (~1 Paragraph)
+We will be designing and developing an educational video game which will teach elementary students math schools in a way that is fun and engaging. This game will include its own website with a database of player scores for players to compete with each other. It will include several levels which increase in difficulty with time, and a points system to incentivize players to do well and play multiple times.
 
 # Team Members and Roles
 
