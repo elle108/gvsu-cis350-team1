@@ -8,6 +8,8 @@ Project description (~1 Paragraph)
 * [Andrew Hodges](https://github.com/hodgeand/CIS350-HW2-Hodges.git) (Design, Logic Management)
 * Member 3 (Role 5, Role 6)
 * [Natasha Kidwell](https://github.com/Chronic-Tonic/CIS350-HW2-Kidwell.git)
+* [Nicholas_Spray](https://github.com/sprayn21/CIS350-HW2-SPRAY.git) (Webpage Development, UI/UX)
+
 
 # Prerequisites
 
