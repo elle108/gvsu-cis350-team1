@@ -1,0 +1,32 @@
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio / VS Code configs
+.vs/
+.vscode/
+
+# Ignore environment and secrets
+.env
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+
+# Ignore logs and generated files
+*.log
+*.tmp
+*.temp
+
+# Ignore Mac and Windows files
+.DS_Store
+Thumbs.db
+
+# Ignore published output
+publish/
