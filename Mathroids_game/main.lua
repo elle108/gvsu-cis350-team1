@@ -1,5 +1,4 @@
 function love.load()
-    
     player = {}
 
     -- player starting postion, subject to change 
@@ -81,6 +80,23 @@ function love.update(dt)
         end
     end
 
+    
+    -- check to make sure player does not go out of bounds
+    if player.x <= 30 then
+        player.x = 30
+    end
+
+    if player.y <= 30 then
+        player.y = 30
+    end
+
+    if player.x >= 770 then
+        player.x = 770
+    end
+
+    if player.y >= 570 then
+        player.y = 570
+    end
 
 end
 
