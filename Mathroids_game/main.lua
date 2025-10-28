@@ -1,5 +1,5 @@
 function love.load()
-     --test comment
+    
     player = {}
 
     -- player starting postion, subject to change 
