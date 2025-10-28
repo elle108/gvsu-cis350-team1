@@ -1,9 +1,14 @@
 function love.load()
+
+    --This is a test ------------------------
+    --another change here 
     player = {}
 
     -- player starting postion, subject to change 
     player.x = 400
     player.y = 200
+
+    --and here
 
     --player speed
     player.x_speed = 0
