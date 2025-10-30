@@ -1,3 +1,4 @@
+
 function love.load()
     player = {}
 
@@ -18,9 +19,21 @@ function love.load()
     --player acceleration
     player.accel = 0.25
 
+    asteroid = createAsteroid()
 
 end
 
+
+functon createAsteroid()
+    local aster = {
+        x = 0,
+        y = 0,
+        sprite = love.graphics.newImage("sprites/asteroid")
+
+    }
+
+
+end
 
 function love.update(dt)
     player.x = player.x + player.x_speed
@@ -81,21 +94,22 @@ function love.update(dt)
     end
 
     
-    -- check to make sure player does not go out of bounds
+    -- check to make sure player does not go out of bounds and will bounce off walls
     if player.x <= 30 then
-        player.x = 30
+        player.x_speed = player.x_speed * -1
     end
 
     if player.y <= 30 then
-        player.y = 30
+        player.y_speed = player.y_speed * -1
     end
 
     if player.x >= 770 then
-        player.x = 770
+        player.x_speed = player.x_speed * -1
     end
 
     if player.y >= 570 then
-        player.y = 570
+        player.y_speed = player.y_speed * -1
+
     end
 
 end
