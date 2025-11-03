@@ -3,7 +3,7 @@
 
 Team name: Team1
 
-Team members: Elle Miller, Andrew Hodges, Nicholas Spray
+Team members: Elle Miller, Andrew Hodges, Nicholas Spray, Natasha Kidwell
 
 # Introduction
 
