@@ -6,6 +6,9 @@ function love.load()
     player.x = 400
     player.y = 200
 
+    rocket = love.graphics.newImage("sprites/rocket.png")
+
+
     --player speed
     player.x_speed = 0
     player.y_speed = 0
@@ -18,20 +21,24 @@ function love.load()
 
     --player acceleration
     player.accel = 0.25
+    
 
-    asteroid = createAsteroid()
+    createAsteroid()
 
 end
 
 
-functon createAsteroid()
-    local aster = {
-        x = 0,
-        y = 0,
-        sprite = love.graphics.newImage("sprites/asteroid")
+function createAsteroid()
+    local asteroid = {
+        x = math.random(50, 750),
+        y = math.random(50, 550),
 
+        --bsprite = love.graphics.newImage("sprites/asteroid")
+
+        
     }
 
+    return asteroid
 
 end
 
@@ -116,5 +123,6 @@ end
 
 
 function love.draw()
-    love.graphics.circle("fill", player.x, player.y, 30)
+    -- love.graphics.circle("fill", player.x, player.y, 30)
+    love.graphics.draw(rocket, player.x, player.y)
 end
