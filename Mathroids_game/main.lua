@@ -2,10 +2,17 @@ local player = require("Player")
 local leaderboard = require("Leaderboard")
 local currentScreen = "game"
 
+local Home = require("Home")
+local Menu = require("Menu")
+require("Math_Problem")
+
+currentScreen = "home"
+
 function love.load()
     leaderboard.load()
     player = Player()
-
+    Home.load()
+    Menu.load()
 end
 
 function love.keypressed(key)
@@ -55,8 +62,6 @@ function love.keyreleased(key)
 
 
 end
-
-
 
 function createAsteroid()
     local asteroid = {
@@ -144,3 +149,7 @@ end
     -- love.graphics.rotate(angle)
     -- love.graphics.translate(-width/2, -height/2)
     -- love.graphics.draw(rocket, player.x, player.y)
+
+
+end
+
