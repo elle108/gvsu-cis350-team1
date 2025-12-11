@@ -91,12 +91,9 @@ test case> | <did it pass or fail?> | <requirement IDs this test case is
 linked to> |
 
 
-| ID | Description | Steps | Input Values | Expected Output | Actual Output
-| Pass/Fail | Requirement Link |
-| :-------------: | :----------: | :----------: | :----------: | :----------:
-| :----------: | :----------: | :----------: |
-| TC1 | Verifies if player sprite rotates properly  | 1. While game  | Use left arrowkey to rotate left and right arrowkey to rotate to the right | Left arrow key or Right Arrow | Expected Output: The player will rotate counterclockwise when the left arrow key is pressed and rotate clockwise when the right arrow key is pressed. | Actual Output: The player rotates counterclockwise when the left arrow key is pressed and rotates clockwise when the right arrow key is pressed. The motion is smooth with no jitter.
-| Pass | Requirement Link |
+| ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| TC1 | Verifies if player sprite rotates properly  | 1. While game  | Use left arrowkey to rotate left and right arrowkey to rotate to the right | Expected Output: The player will rotate counterclockwise when the left arrow key is pressed and rotate clockwise when the right arrow key is pressed. | Actual Output: The player rotates counterclockwise when the left arrow key is pressed and rotates clockwise when the right arrow key is pressed. The motion is smooth with no jitter. | Pass | Requirement Link |
 
 
 | ID | Description | Steps | Input Values | Expected Output | Actual Output
