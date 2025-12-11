@@ -10,8 +10,8 @@ This section outlines the required behavior and quality attributes of Math-eroid
 
 ### Gameplay Mechanics
 
-| ID  | Requirement |
-| :--: | ----------- |
+| ID  | Requirement |  Test Cases |
+| :--: | ----------- | :----------: |
 | FR1 | The system shall display a player controlled spaceship that can move in all directions on the screen. |
 | FR2 | The system shall spawn multiple asteroids that move continuously across the screen. |
 | FR3 | The system shall allow the player to shoot projectiles from the spaceship. |
@@ -20,8 +20,8 @@ This section outlines the required behavior and quality attributes of Math-eroid
 
 ### Math Problem Generation
 
-| ID  | Requirement |
-| :--: | ----------- |
+| ID  | Requirement | Test Cases |
+| :--: | ----------- | :----------: | :----------: |
 | FR6 | The system shall generate a math problem involving the addition of three integers. |
 | FR7 | The system shall display the math problem prominently on the screen during gameplay. |
 | FR8 | The system shall assign answer values to asteroids currently on the screen. |
@@ -30,8 +30,8 @@ This section outlines the required behavior and quality attributes of Math-eroid
 
 ### Scoring and Feedback
 
-| ID  | Requirement |
-| :--: | ----------- |
+| ID  | Requirement |  Test Cases |
+| :--: | ----------- | :----------: |
 | FR11 | The system shall award points when the player destroys the asteroid with the correct answer. |
 | FR12 | The system shall alert the player for shooting an incorrect asteroid. |
 | FR13 | The system shall display the current score during gameplay. |
@@ -40,8 +40,8 @@ This section outlines the required behavior and quality attributes of Math-eroid
 
 ### Leaderboard and Persistence
 
-| ID  | Requirement |
-| :--: | ----------- |
+| ID  | Requirement |  Test Cases |
+| :--: | ----------- | :----------: |
 | FR16 | The system shall allow the player to enter their initials after a game ends. |
 | FR17 | The system shall save player initials and corresponding scores. |
 | FR18 | The system shall display a leaderboard sorted by highest score. |
@@ -52,8 +52,8 @@ This section outlines the required behavior and quality attributes of Math-eroid
 
 ### Usability
 
-| ID  | Requirement |
-| :--: | ----------- |
+| ID  | Requirement |  Test Cases |
+| :--: | ----------- | :----------: |
 | NFR1 | The game shall be playable using standard keyboard controls. |
 | NFR2 | The user interface shall be clear and readable at standard screen resolutions. |
 | NFR3 | The player shall be able to understand gameplay rules without external instructions. |
@@ -62,8 +62,8 @@ This section outlines the required behavior and quality attributes of Math-eroid
 
 ### Reliability and Stability
 
-| ID  | Requirement |
-| :--: | ----------- |
+| ID  | Requirement |  Test Cases |
+| :--: | ----------- | :----------: |
 | NFR6 | The game shall not crash during normal gameplay. |
 | NFR7 | Invalid player input shall not cause unexpected behavior or termination. |
 | NFR8 | The system shall handle repeated play sessions without degradation. |
@@ -72,8 +72,8 @@ This section outlines the required behavior and quality attributes of Math-eroid
 
 ### Maintainability and Portability
 
-| ID  | Requirement |
-| :--: | ----------- |
+| ID  | Requirement |  Test Cases |
+| :--: | ----------- | :----------: |
 | NFR11 | The codebase shall follow consistent naming and formatting conventions. |
 | NFR12 | Gameplay logic shall be modularized into separate components. |
 | NFR13 | The system shall be executable on major operating systems. |
@@ -81,8 +81,71 @@ This section outlines the required behavior and quality attributes of Math-eroid
 | NFR15 | The leaderboard storage mechanism shall be easily replaceable or extendable. |
 
 # Test Specification 
-### Natasha will add her work here
 
+<This section describes all tests. All tests performed here are manual tests of the Beta Build Math-Eroids folder. >
+
+## Unit tests
+| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this
+test case> | <expected output as a result of test case> | <actual output of
+test case> | <did it pass or fail?> | <requirement IDs this test case is
+linked to> |
+
+
+| ID | Description | Steps | Input Values | Expected Output | Actual Output
+| Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------:
+| :----------: | :----------: | :----------: |
+| TC1 | Verifies if player sprite rotates properly  | 1. While game  | Use left arrowkey to rotate left and right arrowkey to rotate to the right | Left arrow key or Right Arrow | Expected Output: The player will rotate counterclockwise when the left arrow key is pressed and rotate clockwise when the right arrow key is pressed. | Actual Output: The player rotates counterclockwise when the left arrow key is pressed and rotates clockwise when the right arrow key is pressed. The motion is smooth with no jitter.
+| Pass | Requirement Link |
+
+
+| ID | Description | Steps | Input Values | Expected Output | Actual Output
+| Pass/Fail | Requirement Link |
+| TC2 | Player sprite accelerate and decelerate |  Uparrow key to accelerate forward and the d | :----------: | :----------:
+| :----------: | :----------: | :----------: |
+
+
+| ID | Description | Steps | Input Values | Expected Output | Actual Output
+| Pass/Fail | Requirement Link |
+| TC3 | :----------: | :----------: | :----------: | :----------:
+| :----------: | :----------: | :----------: |
+
+| TC4 | Description | Steps | Input Values | Expected Output | Actual Output
+| Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------:
+| :----------: | :----------: | :----------: |
+
+
+## Integration tests
+| ID | Description | Steps | Input Values | Expected Output | Actual Output
+| Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------:
+| :----------: | :----------: | :----------: |
+
+
+## System tests
+| ID | Description | Steps | Input Values | Expected Output | Actual Output
+| Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------:
+| :----------: | :----------: | :----------: |
+
+| ID | Description | Steps | Input Values | Expected Output | Actual Output
+| Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------:
+| :----------: | :----------: | :----------: |
+
+| ID | Description | Steps | Input Values | Expected Output | Actual Output
+| Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------:
+| :----------: | :----------: | :----------: |
+
+| ID | Description | Steps | Input Values | Expected Output | Actual Output
+| Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------:
+| :----------: | :----------: | :----------: |
+# Software Artifacts
+<Describe the purpose of this section>
+* [I am a link](to_some_file.pdf)
 # Artifacts
 
 [Use Case Diagrams](https://miro.com/app/board/uXjVJ67qWoE=/?share_link_id=553477000451)
