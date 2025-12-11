@@ -118,11 +118,11 @@ This section outlines the required behavior and quality attributes of Math-eroid
 * [I am a link](to_some_file.pdf)
 # Artifacts
 
-[Use Case Diagrams](https://miro.com/app/board/uXjVJ67qWoE=/?share_link_id=553477000451)
+[Use Case Diagrams](https://miro.com/app/live-embed/uXjVGdfx4cc=/?embedMode=view_only_without_ui&moveToViewport=-1920%2C-489%2C1710%2C807&embedId=2610126226)
 
 [Class Diagram]()
 
-[Sequence Diagram]()
+[Sequence Diagram](https://miro.com/app/live-embed/uXjVGdf1nwM=/?embedMode=view_only_without_ui&moveToViewport=-1552%2C-260%2C1186%2C559&embedId=308404013194)
 
 [ClickUp Sprints](https://app.clickup.com/90132510734/v/s/901310732368)
 
