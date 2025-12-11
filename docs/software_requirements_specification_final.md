@@ -1,4 +1,3 @@
-SRS Markdown Structure (with test cases)
 # Overview
 
 This Software Requirements Specification (SRS) document defines the functional and non-functional requirements for Math-eroids, a math based educational game inspired by the classic Asteroids. The purpose of this document is to clearly describe what the software does, how it behaves, and the constraints under which it operates. This SRS reflects the final implemented version of the project and serves as a reference for development, testing, and evaluation.
